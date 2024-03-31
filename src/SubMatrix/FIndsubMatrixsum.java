@@ -32,7 +32,7 @@ public class FIndsubMatrixsum {
         {
             for(int i=1;i<n;i++)
             {
-                psum[i][j]=psum[i-1][j]+A[i][j];
+                psum[i][j]=psum[i-1][j]+psum[i][j];
             }
         }
         return psum;
