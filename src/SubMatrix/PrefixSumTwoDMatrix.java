@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class PrefixSumTwoDMatrix {
 
+<<<<<<< HEAD
     static int[][] TwoDPrefixSum(int[][] A)
     {
         int n=A.length;
@@ -69,6 +70,11 @@ public class PrefixSumTwoDMatrix {
             }
             System.out.println();
         }
+=======
+    public static void main(String[] args) {
+
+        int a=10;
+>>>>>>> 50592fcba33ff7d328ea458cc1a76f7378fedc4d
 
     }
 }
