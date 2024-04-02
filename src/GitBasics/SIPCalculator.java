@@ -10,9 +10,9 @@ public class SIPCalculator {
         int totalPeriods = noofsips * time;
 
         // Calculate future value of the investment
-        double futureValue = amount * ((Math.pow(1 + monthlyRate, totalPeriods) - 1) / monthlyRate);
+        double futureValue1 = amount * ((Math.pow(1 + monthlyRate, totalPeriods) - 1) / monthlyRate);
 
-        return futureValue;
+        return futureValue1;
 
     }
 }
