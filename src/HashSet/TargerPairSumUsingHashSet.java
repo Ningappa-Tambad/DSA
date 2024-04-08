@@ -12,16 +12,20 @@ public class TargerPairSumUsingHashSet {
 
         for(int i=0;i<n;i++)
         {
+            int x=k-A[i];
+
+            //FInd in x in left side
+
+            if(hs.contains(x)==true)
+            {
+                return true;
+            }
+
             hs.add(A[i]);
         }
 
-        System.out.println(hs);
-
-        if(hs.size()!=n)w
-        {
-            return true;
-        }
         return false;
+
     }
 
     public static void main(String[] args) {
