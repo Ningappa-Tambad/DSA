@@ -43,7 +43,7 @@ public class LocalMinimaTwo {
 
     public static void main(String[] args) {
 
-        int[] A={2,5,8,7,9,33,43,4,56};
+        int[] A={21,11,8,7,9,33,43,4,56};
 
 
 //LOcal Minima -Element smaller than both of its neighbours
