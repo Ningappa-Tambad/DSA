@@ -7,7 +7,15 @@ public class GenericsEx
 
         //Object o=new Exception();
 
-        GenericsEx e=new GenericsEx();
+   TestGenerics<Integer> int1=new TestGenerics<>();
+   int1.setContent(43);
+   System.out.println("Get contenet is " + int1.getContent());
+
+
+   TestGenerics<String> string1=new TestGenerics<>();
+   string1.setContent("Hello");
+   System.out.println("Get contenet is " + string1.getContent());
+
 
 
     }
