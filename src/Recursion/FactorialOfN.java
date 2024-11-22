@@ -12,8 +12,8 @@ public class FactorialOfN {
             return 1;
         }
 
-        int temp=factorial(n-1);
-        return temp*n;
+
+        return n*factorial(n-1);
     }
 
     public static void main(String[] args) {
