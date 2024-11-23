@@ -11,7 +11,10 @@ public class FibonacciNumber {
             return n;
         }
 
-        return n;
+
+        int temp1=fibonacci(n-1);
+        int temp2=fibonacci(n-2);
+          return temp1+temp2;
     }
 
     public static void main(String[] args) {

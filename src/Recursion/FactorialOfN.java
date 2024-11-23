@@ -9,7 +9,7 @@ public class FactorialOfN {
     {
         if(n==1 || n==0)
         {
-            return 3;
+            return 1;
         }
 
 
