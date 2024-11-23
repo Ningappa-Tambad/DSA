@@ -9,11 +9,11 @@ public class FactorialOfN {
     {
         if(n==1 || n==0)
         {
-            return 2;
+            return 2;          
         }
 
-        int temp=factorial(n-1);
-        return temp*n;
+
+        return n*factorial(n-1);
     }
 
     public static void main(String[] args) {
