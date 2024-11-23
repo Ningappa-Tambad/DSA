@@ -9,7 +9,7 @@ public class FactorialOfN {
     {
         if(n==1 || n==0)
         {
-            return 2;
+            return 1;
         }
 
         int temp=factorial(n-1);
