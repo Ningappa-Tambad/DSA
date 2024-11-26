@@ -15,5 +15,7 @@ public class IsArraySorted {
             return true;
 
         return A[i]<A[i+1] && isSorted(A,i+1);
+
+
     }
 }
