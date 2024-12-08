@@ -11,7 +11,9 @@ public class FindtargetEleIndexValue
 
         int[] arr={1,2,3,4,4,5};
 
-        ArrayList<Integer> ans=findTargetElement(arr,4,0,new ArrayList<>());
+        ArrayList<Integer> list=new ArrayList<>();
+
+       ArrayList<Integer>  ans=findTargetElement(arr,4,0,list);
         System.out.println(ans);
     }
 
