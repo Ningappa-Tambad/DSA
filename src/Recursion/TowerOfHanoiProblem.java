@@ -2,7 +2,7 @@ package Recursion;
 
 public class TowerOfHanoiProblem {
 
-    static void toh(int n,char s,char d,char h)
+    static void toh(int n,char A,char B,char C)
     {
         if(n==0)
         {
@@ -11,20 +11,20 @@ public class TowerOfHanoiProblem {
 
         //move n-1th disk from s to h
 
-        toh(n-1,s,h,d);
+        toh(n-1,A,C,B);
 
         //mpve nth disk from S to D
 
-        System.out.println("Move "+n+ " disk from: "+s+" to " +d);
+        System.out.println("Move "+n+ " disk from: "+A+" to " +C);
 
         //move nth disk from H to D
 
-        toh(n-1,h,d,s);
+        toh(n-1,B,A,C);
     }
 
     public static void main(String[] args) {
 
 
-        toh(3,'s','d','h');
+        toh(3,'A','B','C');
     }
 }
