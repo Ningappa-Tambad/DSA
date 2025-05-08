@@ -23,6 +23,7 @@ public class SortTheCharacters {
 
 
             //ch is present count times
+
             for(int j=1;j<=count;j++)
             {
                 A[k]=ch;
