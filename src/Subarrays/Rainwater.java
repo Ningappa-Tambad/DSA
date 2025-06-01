@@ -37,10 +37,10 @@ public class Rainwater {
 
         for(int i=0;i<ht.length;i++)
         {
-            int lb=lmax[i];
-            int rb=rmax[i];
+            int ls=lmax[i];
+            int rs=rmax[i];
 
-            int amt=Math.min(lb,rb)-ht[i];
+            int amt=Math.min(ls,rs)-ht[i];
             water+=amt;
         }
 
@@ -49,7 +49,7 @@ public class Rainwater {
 
     public static void main(String[] args) {
 
-        int[] A={2,1,3,2,1,2,4,3,2,1,3,1};
+        int[] A={2,1,3,2,1,3};
 
         int ans=rainWaterTrapping(A);
         System.out.println(ans);

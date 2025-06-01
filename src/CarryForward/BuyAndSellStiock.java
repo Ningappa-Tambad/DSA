@@ -17,9 +17,11 @@ public class BuyAndSellStiock {
                 max=A[i];
             }
 
-            if(max>maxProfit)
+            int profit=max-A[i];
+
+            if(profit>maxProfit)
             {
-                maxProfit=max;
+                maxProfit=profit;
             }
         }
         return maxProfit;
